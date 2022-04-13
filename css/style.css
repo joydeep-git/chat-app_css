@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+html{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --Pale-Violet: #d89eff;  /* (sub-heading at the top of the app UI) */
+    --Moderate-Violet: #9241c8; /* (chat on the left) */
+    --Desaturated-Dark-Violet: #6e5d7e ; /* (chat on the right) */
+    --Grayish-Blue: #c6cacd; /*(placeholder text) */
+    --Very-Dark-Desaturated-Violet: #3e2753; /* (main heading) */
+    --Dark-Grayish-Violet: #a39daa;  /* (paragraph) */
+    --Light-Magenta: #e942ff;
+    --Light-Violet: #8838ff;
+    --White: #ffffff;
+    --Light-Grayish-Violet: #f5f3f7; /* (app background) */
+    --Very-Dark-Desaturated-Violet: #3e2753; /* (submit button background) */
+    --Very-Light-Magenta: #e570ff;
+    /* (radio button outline) */
+}

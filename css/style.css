@@ -95,6 +95,7 @@ body{
     align-items: flex-end;
     justify-content: right;
 }
-.dots{
-
+.dots img{
+    height: 1rem;
 }
+

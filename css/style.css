@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 
-html{
-    font-size: 16px;
-    font-family: 'Rubik', sans-serif;
-}
+
 
 *,
 *::before,
@@ -29,4 +26,75 @@ html{
     --Very-Dark-Desaturated-Violet: #3e2753; /* (submit button background) */
     --Very-Light-Magenta: #e570ff;
     /* (radio button outline) */
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: var(--Light-Grayish-Violet);
+}
+.mobile{
+    width: 22rem;
+    height: 40rem;
+    border: 15px solid var(--White);
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background: linear-gradient(to right, #8838ff,#e942ff);;
+    height: 5rem;
+    border-radius: 20px 20px 0px 0px;
+}
+.blank{
+    content: '';
+    background-color: var(--White);
+    width: 12rem;
+    height: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 0 20px 20px;
+    margin-top: -1px;
+}
+.top-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+.top-left{
+    color: var(--White);
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-left: -1rem;
+
+}
+.avtar img{
+    height: 2rem;
+    border: 2px solid var(--White);
+    border-radius: 50%;
+    margin-left: -1.5rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: -2rem;
+}
+.name{
+    color: var(--White);
+    font-weight: 500;
+}
+.status{
+    font-size: 0.75rem;
+    color: var(--Grayish-Blue);
+}
+.top-part:nth-last-child(){
+    align-items: flex-end;
+    justify-content: right;
+}
+.dots{
+
 }
